@@ -11,46 +11,103 @@
             </div>
             <div class="row px-5">
               <div class="col-md-6">
-                <div class="card section-content">
-                  coding
+                <div class="dropdown">
+                  <button class="card-c section-content dropdown-toggle w-100" type="button" id="dropdownAcademic" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Academic
+                  </button>
+                  <div class="dropdown-menu w-100" aria-labelledby="dropdownAcademic">
+                    <a class="dropdown-item" href="#">School</a>
+                    <a class="dropdown-item" href="#">College</a>
+                    <a class="dropdown-item" href="#">Business School</a>
+                  </div>
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="card section-content">
-                  maths
+                <div class="dropdown">
+                  <button class="card-c section-content dropdown-toggle w-100" type="button" id="dropdownProfessional" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    professional
+                  </button>
+                  <div class="dropdown-menu w-100" aria-labelledby="dropdownProfessional">
+                    <a class="dropdown-item" href="#">professional 1</a>
+                    <a class="dropdown-item" href="#">professional 2</a>
+                    <a class="dropdown-item" href="#">professional 3</a>
+                  </div>
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="card section-content">
-                  music
+                <div class="dropdown">
+                  <button class="card-c section-content dropdown-toggle w-100" type="button" id="dropdownIT" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    IT
+                  </button>
+                  <div class="dropdown-menu w-100" aria-labelledby="dropdownIT">
+                    <a class="dropdown-item" href="#">1</a>
+                    <a class="dropdown-item" href="#">2</a>
+                    <a class="dropdown-item" href="#">3</a>
+                  </div>
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="card section-content">
-                  videography
+                <div class="dropdown">
+                  <button class="card-c section-content dropdown-toggle w-100" type="button" id="dropdownBusiness" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Business
+                  </button>
+                  <div class="dropdown-menu w-100" aria-labelledby="dropdownBusiness">
+                    <a class="dropdown-item" href="#">1</a>
+                    <a class="dropdown-item" href="#">2</a>
+                    <a class="dropdown-item" href="#">3</a>
+                  </div>
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="card section-content">
-                  designing
+                <div class="dropdown">
+                  <button class="card-c section-content dropdown-toggle w-100" type="button" id="dropdownAgriculture" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Agriculture
+                  </button>
+                  <div class="dropdown-menu w-100" aria-labelledby="dropdownAgriculture">
+                    <a class="dropdown-item" href="#">1</a>
+                    <a class="dropdown-item" href="#">2</a>
+                    <a class="dropdown-item" href="#">3</a>
+                  </div>
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="card section-content">
-                  dance
+                <div class="dropdown">
+                  <button class="card-c section-content dropdown-toggle w-100" type="button" id="dropdownSports" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sports
+                  </button>
+                  <div class="dropdown-menu w-100" aria-labelledby="dropdownSports">
+                    <a class="dropdown-item" href="#">1</a>
+                    <a class="dropdown-item" href="#">2</a>
+                    <a class="dropdown-item" href="#">3</a>
+                  </div>
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="card section-content">
-                  art
+                <div class="dropdown">
+                  <button class="card-c section-content dropdown-toggle w-100" type="button" id="dropdownArt" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Art
+                  </button>
+                  <div class="dropdown-menu w-100" aria-labelledby="dropdownArt">
+                    <a class="dropdown-item" href="#">1</a>
+                    <a class="dropdown-item" href="#">2</a>
+                    <a class="dropdown-item" href="#">3</a>
+                  </div>
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="card section-content">
-                  singing
+                <div class="dropdown">
+                  <button class="card-c section-content dropdown-toggle w-100" type="button" id="dropdownOthers" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Others
+                  </button>
+                  <div class="dropdown-menu w-100" aria-labelledby="dropdownOthers">
+                    <a class="dropdown-item" href="#">1</a>
+                    <a class="dropdown-item" href="#">2</a>
+                    <a class="dropdown-item" href="#">3</a>
+                  </div>
                 </div>
               </div>
             </div>
+
             <div class="row px-5 py-4 justify-content-center">
               <a href="#" class="btn btn-main">
                 More Categories
@@ -237,10 +294,10 @@
         </div>
       </div>
       <div class="row px-5 py-4">
-        <div class="col-md-3">
-          <div class="card">
+        <!-- <Slick ref="slick" :options="slickOptionsStudy">
+          <div class="card-body">
             <div class="card-img">
-              <img src="images/TopStudy/python.jpg" class="card-img-top">
+              <img src="images/TopStudy/python.jpg" class="card-img-top img-fluid">
             </div>
             <div class="card-body px-5">
               <div>
@@ -255,64 +312,104 @@
               <div class="text-success">FREE</div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <div class="card-img">
-              <img src="images/TopStudy/graphics.jpg" class="card-img-top">
-            </div>
-            <div class="card-body px-5">
-              <div>
-                Graphics Design 2021
+        </Slick> -->
+        <!-- <Slick ref="slick" :options="slickOptionsStudy"> -->
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-img">
+                <img src="images/TopStudy/python.jpg" class="card-img-top img-fluid">
               </div>
-              <div>
-                <small>Paint Villa</small>
+              <div class="card-body px-5">
+                <div>
+                  Learn Python 2021
+                </div>
+                <div>
+                  <small>Jose Portilla </small>
+                </div>
+                <div>
+                  <strong>NA</strong>
+                </div>
+                <div class="text-success">FREE</div>
               </div>
-              <div>
-                <strong>Rs. 7,000</strong>
-              </div>
-              <div class="text-warning">PAID</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <div class="card-img">
-              <img src="images/TopStudy/js.jpg" class="card-img-top">
-            </div>
-            <div class="card-body px-5">
-              <div>
-                Learn JavaScript Full
-              </div>
-              <div>
-                <small>Martin Morse</small>
-              </div>
-              <div>
-                <strong>Rs. 5,000</strong>
-              </div>
-              <div class="text-warning">PAID</div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <div class="card-img">
-              <img src="images/TopStudy/angular.jpg" class="card-img-top">
-            </div>
-            <div class="card-body px-5">
-              <div>
-                Angular Course
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-img">
+                <img src="images/TopStudy/graphics.jpg" class="card-img-top img-fluid">
               </div>
-              <div>
-                <small>Rose Parker</small>
+              <div class="card-body px-5">
+                <div>
+                  Graphics Design 2021
+                </div>
+                <div>
+                  <small>Paint Villa</small>
+                </div>
+                <div>
+                  <strong>Rs. 7,000</strong>
+                </div>
+                <div class="text-warning">PAID</div>
               </div>
-              <div>
-                <strong>NA</strong>
-              </div>
-              <div class="text-success">FREE</div>
             </div>
           </div>
-        </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-img">
+                <img src="images/TopStudy/js.jpg" class="card-img-top img-fluid">
+              </div>
+              <div class="card-body px-5">
+                <div>
+                  Learn JavaScript Full
+                </div>
+                <div>
+                  <small>Martin Morse</small>
+                </div>
+                <div>
+                  <strong>Rs. 5,000</strong>
+                </div>
+                <div class="text-warning">PAID</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-img">
+                <img src="images/TopStudy/angular.jpg" class="card-img-top img-fluid">
+              </div>
+              <div class="card-body px-5">
+                <div>
+                  Angular Course
+                </div>
+                <div>
+                  <small>Rose Parker</small>
+                </div>
+                <div>
+                  <strong>NA</strong>
+                </div>
+                <div class="text-success">FREE</div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-12">
+            <div class="card-body">
+              <div class="card-img">
+                <img src="images/TopStudy/angular.jpg" class="card-img-top img-fluid">
+              </div>
+              <div class="card-body px-5">
+                <div>
+                  Angular Course
+                </div>
+                <div>
+                  <small>Rose Parker</small>
+                </div>
+                <div>
+                  <strong>NA</strong>
+                </div>
+                <div class="text-success">FREE</div>
+              </div>
+            </div>
+          </div> -->
+        <!-- </Slick> -->
       </div>
     </section>
     <!-- end top study material -->
@@ -325,7 +422,7 @@
               WHY STUDY HERE?
           </div>
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3">
               <div class="flip-card" style="box-shadow: 0px 0px 8px 0px rgba(51, 51, 51, 0.705); background-color: #eaeaea;">
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
@@ -341,7 +438,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
               <div class="flip-card" style="box-shadow: 0px 0px 8px 0px rgba(51, 51, 51, 0.705); background-color: #eaeaea;">
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
@@ -357,12 +454,28 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
               <div class="flip-card" style="box-shadow: 0px 0px 8px 0px rgba(51, 51, 51, 0.705); background-color: #eaeaea;">
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                     <div class="category-overlay">
                       Topic 3
+                    </div>
+                  </div>
+                  <div class="flip-card-back">
+                    <div>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="flip-card" style="box-shadow: 0px 0px 8px 0px rgba(51, 51, 51, 0.705); background-color: #eaeaea;">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <div class="category-overlay">
+                      Topic 4
                     </div>
                   </div>
                   <div class="flip-card-back">
@@ -402,8 +515,6 @@
         </div>
       </div>
     </section>
-
-    <hr />
   </div>
 </template>
 
@@ -412,17 +523,24 @@ import Slick from 'vue-slick';
 
   export default {
     components: { Slick },
-    name: 'HelloWorld',
     data() {
       return {
         slickOptions: {
           slidesToShow: 4,
           slidesToScroll: 1,
           autoplay: true,
-          autoplaySpeed: 2000,
+          autoplaySpeed: 3000,
           arrows: false
         },
+        slickOptionsStudy: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          arrows: false
+        }
       };
     },
   }
+
 </script>

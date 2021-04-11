@@ -1,5 +1,7 @@
 <template>
-  <footer class="control-overflow main-footer">
+  <div>
+    <!-- <hr> -->
+    <footer class="control-overflow main-footer">
       <div class="row main-footer_top px-5">
         <div class="col-md-4 wow animate__animated animate__fadeIn animate__delay-1s">
           <div class="text-center">
@@ -64,6 +66,7 @@
         </div>
       </div>
     </footer>
+  </div>
 </template>
 
 <script>

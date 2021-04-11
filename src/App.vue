@@ -1,20 +1,18 @@
 <template>
   <div>
     <Navbar/>
-    <MainPage/>
+    <router-view></router-view>
     <Footer/>
   </div>
 </template>
 
 <script> 
-  import MainPage from './components/Pages/MainPage';
   import Navbar from './components/Partials/Navbar';
   import Footer from './components/Partials/Footer';
 
   export default {
     name: 'App',
     components: {
-      MainPage,
       Navbar,
       Footer
     }
