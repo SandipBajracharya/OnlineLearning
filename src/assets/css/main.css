@@ -373,7 +373,7 @@ a:hover {
 /* Become Tutor */
 .tutor-container
 {
-  height: 90vh;
+  height: 125vh;
   width: 100%;
   overflow: hidden;
 }
@@ -382,14 +382,14 @@ a:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 125vh;
 }
 
 .overlay {
   position: absolute;
   left: 0;
   width: 100%;
-  height: 90vh;
+  height: 125vh;
   background-image: linear-gradient(358deg, #0000007c, #00000027);
   z-index: 90;
   display: flex;
@@ -398,8 +398,7 @@ a:hover {
 }
 
 .login-form-container {
-  box-shadow: 0px 0px 10px 0px rgba(99, 99, 99, 0.753);
-  text-align: center;
+  box-shadow: 0px 0px 10px 0px rgba(56, 56, 56, 0.87);
   font-size: 13px;
   font-weight: 500;
   color: rgba(61, 61, 61, 0.897);
@@ -409,4 +408,37 @@ a:hover {
   /* cursor: pointer; */
   text-decoration: none;
   width: 50%;
+}
+
+/* tool tip */
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  opacity: 1 !important;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.form-control {
+  font-style: italic;
 }

@@ -3,6 +3,7 @@
   import VueRouter from 'vue-router';
   import MainPage from '../Pages/MainPage.vue';
   import BecomeTutor from '../Pages/BecomeTutor.vue';
+  import StudentLogin from '../Pages/StudentLogin.vue';
 
   Vue.use(VueRouter);
 
@@ -18,6 +19,12 @@
       name: 'become-tutor',
       title: 'BecomeTutor', 
       component: BecomeTutor
+    },
+    { 
+      path: '/student-login',
+      name: 'student-login',
+      title: 'StudentLogin', 
+      component: StudentLogin
     }
   ];
 

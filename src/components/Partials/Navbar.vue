@@ -3,7 +3,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#">My Teacher</a>
+    <router-link class="navbar-brand" to="/">My Teacher</router-link>
   
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul class="navbar-nav w-100 justify-content-between pl-3">
@@ -16,7 +16,7 @@
           </form>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Become Tutor</a>
+          <router-link class="nav-link" to="/become-tutor">Become Tutor</router-link>
         </li>
         <li class="nav-item">
           <a class="btn btn-logreg" href="#">Student Login</a>
@@ -27,17 +27,6 @@
         <li class="nav-item">
           <a class="nav-link" href="#">My Courses</a>
         </li>
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="categoryDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Student Login
-          </a>
-          <div class="dropdown-menu" aria-labelledby="categoryDropdown">
-            <a class="dropdown-item" href="#">Category A</a>
-            <a class="dropdown-item" href="#">Category B</a>
-            <a class="dropdown-item" href="#">Category C</a>
-            <a class="dropdown-item" href="#">Category D</a>
-          </div>
-        </li> -->
         <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="courseDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Course
@@ -52,11 +41,191 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Test Yourself</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item mega-dropdown">
           <a class="nav-link" href="#" title="Favorite"><i class="fab fa-gratipay" title="Favorite"></i></a>
+          <div class="mega-dropdown-content">
+            <div class="control-overflow">
+              <div class="row p-4">
+                <div class="col-md-12 pb-1">
+                  <strong>Recent/ Favourites</strong>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <div class="card-img">
+                      <img src="images/TopStudy/python.jpg" class="card-img-top img-fluid">
+                    </div>
+                    <div class="card-body px-3">
+                      <div>
+                        Learn Python 2021
+                      </div>
+                      <div>
+                        <small>Jose Portilla </small>
+                      </div>
+                      <div>
+                        <strong>NA</strong>
+                      </div>
+                      <div class="text-success">FREE</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <div class="card-img">
+                      <img src="images/TopStudy/js.jpg" class="card-img-top img-fluid">
+                    </div>
+                    <div class="card-body px-3">
+                      <div>
+                        Learn Python 2021
+                      </div>
+                      <div>
+                        <small>Jose Portilla </small>
+                      </div>
+                      <div>
+                        <strong>NA</strong>
+                      </div>
+                      <div class="text-success">FREE</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <div class="card-img">
+                      <img src="images/TopStudy/graphics.jpg" class="card-img-top img-fluid">
+                    </div>
+                    <div class="card-body px-3">
+                      <div>
+                        Learn Python 2021
+                      </div>
+                      <div>
+                        <small>Jose Portilla </small>
+                      </div>
+                      <div>
+                        <strong>NA</strong>
+                      </div>
+                      <div class="text-success">FREE</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <div class="card-img">
+                      <img src="images/TopStudy/python.jpg" class="card-img-top img-fluid">
+                    </div>
+                    <div class="card-body px-3">
+                      <div>
+                        Learn Python 2021
+                      </div>
+                      <div>
+                        <small>Jose Portilla </small>
+                      </div>
+                      <div>
+                        <strong>NA</strong>
+                      </div>
+                      <div class="text-success">FREE</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <div class="card-img">
+                      <img src="images/TopStudy/js.jpg" class="card-img-top img-fluid">
+                    </div>
+                    <div class="card-body px-3">
+                      <div>
+                        Learn Python 2021
+                      </div>
+                      <div>
+                        <small>Jose Portilla </small>
+                      </div>
+                      <div>
+                        <strong>NA</strong>
+                      </div>
+                      <div class="text-success">FREE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
-        <li class="nav-item">
+        <li class="nav-item mega-dropdown">
           <a class="nav-link" href="#" title="Advertisement"><i class="fas fa-ad" title="Advertisement"></i></a>
+          <div class="mega-dropdown-content">
+            <div class="control-overflow">
+              <div class="row p-4">
+                <div class="col-md-12 pb-1">
+                  <strong>Advertisement</strong>
+                </div>
+                <div class="col-md-3">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/awLnur5Yt9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <div class="card-img">
+                      <img src="images/TopStudy/js.jpg" class="card-img-top img-fluid">
+                    </div>
+                    <div class="card-body px-3">
+                      <div>
+                        Learn Python 2021
+                      </div>
+                      <div>
+                        <small>Jose Portilla </small>
+                      </div>
+                      <div>
+                        <strong>NA</strong>
+                      </div>
+                      <div class="text-success">FREE</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <div class="card-img">
+                      <img src="images/TopStudy/graphics.jpg" class="card-img-top img-fluid">
+                    </div>
+                    <div class="card-body px-3">
+                      <div>
+                        Learn Python 2021
+                      </div>
+                      <div>
+                        <small>Jose Portilla </small>
+                      </div>
+                      <div>
+                        <strong>NA</strong>
+                      </div>
+                      <div class="text-success">FREE</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/awLnur5Yt9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <div class="card">
+                    <div class="card-img">
+                      <img src="images/TopStudy/js.jpg" class="card-img-top img-fluid">
+                    </div>
+                    <div class="card-body px-3">
+                      <div>
+                        Learn Python 2021
+                      </div>
+                      <div>
+                        <small>Jose Portilla </small>
+                      </div>
+                      <div>
+                        <strong>NA</strong>
+                      </div>
+                      <div class="text-success">FREE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </li>
         <li class="nav-item">
           <a class="btn btn-logreg" href="#">FAQs</a>
@@ -74,4 +243,5 @@
   export default {
     name: 'Navbar'
   }
+
 </script>

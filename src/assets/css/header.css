@@ -31,7 +31,7 @@
 .navbar .nav-item .nav-link
 {
   color: #333;
-  font-weight: 400;
+  font-weight:500;
   font-size: 15px;
   letter-spacing: 0.035rem;
   border-bottom: 2px solid #fff;
@@ -58,4 +58,20 @@
 .bg-white
 {
   background-color: #fff !important;
+}
+
+/* nav mega dropdown */
+
+.mega-dropdown-content {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: rgb(243, 243, 243) !important;
+  display: none;
+}
+
+.mega-dropdown:hover .mega-dropdown-content {
+  display: block !important;
+  z-index: 100;
+  transition: all 0.3s ease-in-out;
 }

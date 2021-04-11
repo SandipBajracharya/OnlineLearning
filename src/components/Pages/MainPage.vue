@@ -314,23 +314,9 @@
           </div>
         </Slick> -->
         <!-- <Slick ref="slick" :options="slickOptionsStudy"> -->
-          <div class="col-md-3">
+          <div class="col-md-2">
             <div class="card">
-              <div class="card-img">
-                <img src="images/TopStudy/python.jpg" class="card-img-top img-fluid">
-              </div>
-              <div class="card-body px-5">
-                <div>
-                  Learn Python 2021
-                </div>
-                <div>
-                  <small>Jose Portilla </small>
-                </div>
-                <div>
-                  <strong>NA</strong>
-                </div>
-                <div class="text-success">FREE</div>
-              </div>
+              <img src="images/TopStudy/python.jpg" class="card-img-top img-fluid">
             </div>
           </div>
           <div class="col-md-3">
