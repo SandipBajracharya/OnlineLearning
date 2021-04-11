@@ -314,9 +314,23 @@
           </div>
         </Slick> -->
         <!-- <Slick ref="slick" :options="slickOptionsStudy"> -->
-          <div class="col-md-2">
+          <div class="col-md-3">
             <div class="card">
-              <img src="images/TopStudy/python.jpg" class="card-img-top img-fluid">
+              <div class="card-img">
+                <img src="images/TopStudy/python.jpg" class="card-img-top img-fluid">
+              </div>
+              <div class="card-body px-5">
+                <div>
+                  Learn Python 2021
+                </div>
+                <div>
+                  <small>Paint Villa</small>
+                </div>
+                <div>
+                  <strong>Rs. 7,000</strong>
+                </div>
+                <div class="text-warning">PAID</div>
+              </div>
             </div>
           </div>
           <div class="col-md-3">
